@@ -138,6 +138,11 @@ section{padding:110px 6% 60px;max-width:1200px;margin:auto}
   transition:.35s;
 }
 .socials a:hover{transform:translateY(-6px) rotate(8deg);background:var(--grad);border-color:transparent;box-shadow:0 10px 25px rgba(124,92,255,.5)}
+.socials .leetcode img{width:20px;height:20px;filter:invert(68%) sepia(74%) saturate(1200%) hue-rotate(359deg) brightness(102%);transition:.35s}
+.socials .leetcode:hover{background:linear-gradient(135deg,#ffa116,#ff6b00);box-shadow:0 10px 25px rgba(255,161,22,.5)}
+.socials .leetcode:hover img{filter:invert(1)}
+.v5{background:linear-gradient(135deg,#ffb300,#ff4ecd)}
+.ieee-badge{position:absolute;top:14px;left:14px;z-index:3;font-size:.72rem;font-weight:600;padding:5px 12px;border-radius:20px;background:rgba(7,11,26,.55);border:1px solid rgba(255,255,255,.3);backdrop-filter:blur(8px)}
 
 /* hero visual */
 .hero-visual{flex:1;display:flex;justify-content:center;position:relative}
@@ -418,6 +423,7 @@ footer span{color:var(--c3)}
       <a href="mailto:chinninnigarikartheek@gmail.com" class="glass" title="Email"><i class="fa-solid fa-envelope"></i></a>
       <a href="tel:+919100510700" class="glass" title="Phone"><i class="fa-solid fa-phone"></i></a>
       <a href="#" class="glass" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://leetcode.com/" target="_blank" class="glass leetcode" title="LeetCode"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/leetcode.svg" alt="LeetCode"></a>
     </div>
   </div>
 
@@ -598,6 +604,22 @@ footer span{color:var(--c3)}
         <h3>Automatic Car Damage Detection</h3>
         <p>Extracted and structured multidimensional feature vectors, saving historical predictive outputs to optimize downstream model precision.</p>
         <div class="pills"><span class="pill">Python</span><span class="pill">Computer Vision</span><span class="pill">Data Science</span></div>
+      </div>
+    </div>
+
+    <div class="project glass reveal">
+      <div class="p-visual v5">
+        <span class="ieee-badge"><i class="fa-solid fa-trophy"></i> IEEE Published</span>
+        <i class="deco fa-solid fa-thumbs-up" style="top:26px;right:40px"></i>
+        <i class="deco fa-solid fa-star" style="bottom:44px;left:30px"></i>
+        <i class="deco fa-solid fa-sliders" style="bottom:44px;right:32px"></i>
+        <i class="big-icon fa-solid fa-mobile-screen-button"></i>
+        <div class="p-overlay"><a href="#" title="Code"><i class="fa-brands fa-github"></i></a><a href="#" title="Paper"><i class="fa-solid fa-file-lines"></i></a></div>
+      </div>
+      <div class="p-body">
+        <h3>Smartphone Recommendation System</h3>
+        <p>Recommendation system that suggests smartphones suited to a user's needs. Published in IEEE and won the Best Project Based Learning Award at VIT Chennai.</p>
+        <div class="pills"><span class="pill">Recommendation System</span><span class="pill">Data Analytics</span><span class="pill">IEEE</span></div>
       </div>
     </div>
   </div>
